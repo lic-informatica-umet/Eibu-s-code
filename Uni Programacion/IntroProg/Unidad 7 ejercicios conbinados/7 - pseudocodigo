@@ -1,0 +1,14 @@
+'''
+Codifique un programa que muestre por pantalla los números pares del 1 al 10. 
+'''
+
+#  Declaracion de variables
+
+numero = 0
+
+# Bucle
+
+mientras (numero < 10) entonces
+    numero = numero + 2
+    mostrar(numero)
+fin mientras

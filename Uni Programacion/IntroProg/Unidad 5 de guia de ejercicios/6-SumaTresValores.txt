@@ -1,0 +1,29 @@
+# Programa: Suma de tres valores
+# Fecha: 08/04/2019
+# Autor: Agustin Arce
+
+# inicializacion de variables
+
+Igualar las variables a 0, los 3 numeros y la variable de la suma
+
+
+# Ingreso de datos
+
+mostrar ingreso de primer numero
+leer num1 = primer numero a sumar
+mostrar ingreso de segundo numero
+leer num2 = segundo numero a sumar
+mostrar ingreso de tercer numero
+leer num3 = tercer numero a sumar
+
+# Operacion de suma 1
+
+sum1 = num1 + num2 # Suma de numero uno y dos
+
+# Operacion de suma 2
+
+sum2 = num3 + sum1 # Suma de numero tres y el resultado de la suma anterior
+
+# Muestra resultado en pantalla
+
+mostrar la suma de los tres valores
