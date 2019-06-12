@@ -1,0 +1,13 @@
+'''
+1. Codificar un programa que permita mostrar un mensaje por pantalla. 
+2. Modificar el programa anterior colocando un comentario al principio que guarde la siguiente información: 
+• Fecha de creación 
+• Autor 
+• Lugar 
+• Función del programa. 
+'''
+# Fecha: 06/06/2019
+# Autor: Agustin Arce
+# Programa: Hola Mundo
+
+print("Hola Mundo")

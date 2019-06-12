@@ -1,0 +1,33 @@
+'''
+3. Ingresar dos valores y realizar cl producto, si el 1ro es mayor al 2do, si son iguales solo indicarlo. 
+'''
+
+# Nombre: Agustin Arce
+# Fecha: 20/04/2019
+# Programa: Producto entre dos numeros
+
+# Inicializacion de variables
+
+num1 = 0
+num2 = 0
+prod = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (num1)
+mostrar ("Ingrese segundo numero: ")
+leer (num2)
+
+# Operacion
+
+prod = num1 * num2
+
+# Control de flujo e informacion en pantalla
+
+si (num1 == num2) entonces
+    mostrar ("Los dos numeros son iguales, no se mostrara el producto")
+sino si (num1 >= num2) entonces
+    mostrar ("El producto entre los dos valores es:" + prod)
+sino entonces
+    mostrar ("Intente indicar el primer numero como mayor")

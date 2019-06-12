@@ -1,0 +1,34 @@
+'''
+7. Ingresar los lados de un triángulo calcular su perímetro, Ingresar dos lados de un triángulo rectángulo y calcular, la hipotenusa, el perímetro, y la superﬁcie.
+'''
+
+# Fecha: 08/04/2019
+# Autor: Agustin Arce
+# Programa: Calculo del perimetro de un triangulo
+
+# inicializacion de variables
+
+base = 0
+altura = 0
+hipotenusa = 0
+perimetro = 0
+superﬁcie = 0 # Cuadrado
+
+# Ingreso de datos
+
+mostrar ("Ingrese base del triangulo rectangulo: ")
+leer (base)
+mostrar ("Ingrese altura del triangulo rectangulo: ")
+leer (altura)
+
+# Calculo de hipotenusa
+
+hipotenusa = (base**2 + altura**2)**0.5
+perimetro = base + altura + hipotenusa
+superﬁcie = (base * altura)/2
+
+# Muestra de informacion 
+
+mostrar ("La hipotenusa vale: " + hipotenusa + ".")
+mostrar ("El perimetro vale: " + perimetro + ".")
+mostrar ("La superﬁcie vale: " + superficie + " cm2.")

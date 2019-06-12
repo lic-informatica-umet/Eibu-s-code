@@ -1,0 +1,46 @@
+'''
+7. Ingresar cuatro valores, sumar el 1ro y el 2do, el 3ro y el 4to, indicar cuál de estas sumas es mayor. 
+'''
+
+# Fecha: 20/04/2019
+# Autor: Agustin Arce
+# Programa: Valor de suma mas alta
+
+# Inicializacion de variables
+
+num1 = 0
+num2 = 0
+num3 = 0
+num4 = 0
+resultado1 = 0
+resultado2 = 0
+
+# Muestra de que hace el programa
+
+print("Se sumara el primer valor con el segundo valor y el tercer valor con el cuarto valor.\n" 
+    "Se mostrara la suma que de el resultado mas alto.")
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (num1)
+mostrar ("Ingrese segundo numero: ")
+leer (num2)
+mostrar ("Ingrese tercer numero: ")
+leer (num3)
+mostrar ("Ingrese cuarto numero: ")
+leer (num4)
+
+# Operaciones
+
+resultado1 = num1 + num2
+resultado2 = num3 + num4
+
+# Control de flujo
+
+si (resultado1 > resultado2) entonces
+    mostrar ("El valor de la suma mas alta es:" + resultado1)
+sino si (resultado1 < resultado2) entonces
+    mostrar ("El valor de la suma mas alta es:" + resultado2)
+sino entonces
+    mostrar ("Los resultados son iguales.")

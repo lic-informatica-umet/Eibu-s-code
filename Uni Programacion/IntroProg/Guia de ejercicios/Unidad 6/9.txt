@@ -1,0 +1,28 @@
+'''
+9. Codificar un programa para que, a partir de un monto en pesos, se calcule su equivalente en dólares. 
+'''
+
+# Fecha: 15/04/2019
+# Autor: Agustin Arce
+# Programa: Pesos a dolares
+
+# inicializacion de variables
+
+pesos = 0
+dolares = 0
+pesosadolares = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese la cantidad de pesos a convertir: $")
+leer (pesos)
+mostrar ("Ingrese el valor del dolar en pesos: $")
+leer (dolares)
+
+# Operaciones
+
+pesosadolares = pesos / dolares
+
+# Mostrar el resultado
+
+mostrar (pesos + "pesos es igual a" + pesosadolares + "dolares")

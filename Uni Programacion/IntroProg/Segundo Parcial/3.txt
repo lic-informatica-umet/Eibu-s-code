@@ -1,0 +1,85 @@
+analisis
+
+-------------------------------------------------------------------------------------------------------
+entrada:
+nombre
+numeroelegido
+numeroganador
+-------------------------------------------------------------------------------------------------------
+proceso:
+determinar el premio
+numerodejugada
+-------------------------------------------------------------------------------------------------------
+salida:
+premio
+intentos
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+pseudocodigo
+
+# constantes
+
+numeroganador = 41
+premio = 500000
+
+# variables
+
+gano = 0
+nombre = ""
+nombreganador = ""
+numerodejugada = 0
+numeroelegido = -1
+
+mientras (gano <> 1) y (numerodejugada < 2)
+    si (numerodejugada = 1) entonces
+        mientras (nombre = "")
+            mostrar ("Ingrese nombre")
+            leer (nombre)
+            si (nombre = "") entonces
+                mostrar ("error")
+            fin si
+        fin mientras
+    fin si
+
+    mientras (numeroelegido < 0) o (numeroelegido > 41)
+        mostrar ("Ingrese numero")
+        leer (numeroelegido)
+        si (numeroelegido < 0) o (numeroelegido > 41) entonces
+            mostrar ("error")
+        fin si
+    fin mientras
+
+    # determinar numero ganador
+
+    si (numeroelegido = numeroganador) entonces
+        gano = 1
+        nombreganador = nombre
+    fin si 
+
+    #incremento de contador de jugada
+
+    mostrar (numerodejugada)
+    numerodejugada = numerodejugada + 1
+
+    #limpiamos varaibles
+
+    numeroelegido = -1
+
+fin mientras
+
+# reportes
+
+mostrar (numerodejugada) 
+mostrar (nombreganador)
+
+# determinar premio a cobrar
+
+si (numerodejugada = 1) entonces
+    mostrar (premio)
+sino si (numerodejugada = 2) entonces
+    mostrar (premio / 2)
+sino si (numerodejugada = 3) entonces
+    mostrar (premio / 10)
+sino entonces
+    mostrar ("no hay premio")

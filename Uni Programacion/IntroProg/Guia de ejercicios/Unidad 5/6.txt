@@ -1,0 +1,31 @@
+'''
+6. Ingresar tres valores y sumarlos, se puede sumar de a varios operandos.
+'''
+
+# Fecha: 01/04/2019
+# Autor: Agustin Arce
+# Programa: Suma de 3 numeros, sumando de a 2
+
+# Declaracion de variables
+
+numero1 = 0
+numero2 = 0
+numero3 = 0
+resultado = 0 
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (numero1)
+mostrar ("Ingrese segundo numero: ")
+leer (numero2)
+mostrar ("Ingrese tercer numero: ")
+leer (numero3)
+
+# Operaciones de suma
+
+resultado = numero1 + numero2 + numero3
+
+# Muestra de datos 
+
+mostrar (resultado)

@@ -1,0 +1,25 @@
+'''
+2. Ingresar un valor indicar si es positivo, negativo 0 cero. 
+'''
+
+# Fecha: 15/04/2019
+# Autor: Agustin Arce
+# Programa: Indicar valor
+
+# Inicializacion de variables
+
+num1 = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese numero: ")
+leer (num1)
+
+# Control de flujo e informacion en pantalla
+
+si (num1 > 0) entonces
+    mostrar ("El numero es positivo")
+sino si (num1 < 0) entonces
+    mostrar ("El numero es negativo")
+sino entonces
+    mostrar ("El numero es cero")

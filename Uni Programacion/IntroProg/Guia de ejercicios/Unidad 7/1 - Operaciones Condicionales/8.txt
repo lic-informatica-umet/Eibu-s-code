@@ -1,0 +1,41 @@
+'''
+8. Ingresar la edad y la altura de dos personas, indicar la estatura del de mayor edad. 
+'''
+
+# Fecha: 15/04/2019
+# Autor: Agustin Arce
+# Programa: Estatura del mayor
+
+# Inicializacion de variables
+
+altura1 = 0
+edad1 = 0
+altura2 = 0
+edad2 = 0
+
+# Ingreso de datos
+
+# Persona 1
+
+mostrar ("Ingrese la altura de la primera persona: ")
+leer (altura1)
+mostrar ("Ingrese edad de la primera persona: ")
+leer (edad1)
+
+# Persona 2
+
+mostrar ("Ingrese la altura de la segunda persona: ")
+leer (altura2)
+mostrar ("Ingrese edad de la segunda persona: ")
+leer (edad2)
+
+# Control de flujo y muestra de informacion en pantalla
+
+si (edad1 > edad2) entonces
+    mostrar ("La altura de la persona mayor es:", altura1)
+sino si (edad1 < edad2) entonces
+    mostrar ("La altura de la persona mayor es:", altura2)
+sino entonces
+    mostrar ("Las dos personas tiene la misma edad, se mostraran las dos alturas:")
+    mostrar ("La primera persona mide:" + altura1)
+    mostrar ("La segunda persona mide:" + altura2)

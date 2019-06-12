@@ -1,0 +1,34 @@
+'''
+8. Ingresar los lados de un rectángulo y calcular su diagonal principal, superﬁcie, y perímetro. 
+'''
+
+# Fecha: 08/04/2019
+# Autor: Agustin Arce
+# Programa: Calculo de un rectangulo
+
+# Inicializacion de variables
+
+base = 0
+altura = 0
+hipotenusa = 0
+perimetro = 0
+superﬁcie = 0 # Cuadrado
+
+# Ingreso de datos
+
+mostrar ("Ingrese base del rectangulo: ")
+leer (base)
+mostrar ("Ingrese altura del rectangulo: ")
+leer (altura)
+
+# Calculo de hipotenusa
+
+hipotenusa = (base**2 + altura**2)**0.5
+perimetro = (base + altura) * 2
+superﬁcie = (base * altura)
+
+# Muestra de informacion 
+
+mostrar ("La diagonal vale: " + hipotenusa + ".")
+mostrar ("El perimetro vale: " + perimetro + ".")
+mostrar ("La superﬁcie vale: " + superficie + " cm2.")

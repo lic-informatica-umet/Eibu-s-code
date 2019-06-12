@@ -1,0 +1,27 @@
+2. Codifique un programa que permita determinar la situación de un alumno a partir de su nota final de cursada. 
+Se sabe que las situaciones son “Desaprobado” (nota inferior a 4), “Aprobado” (nota entre 4 y 6,99) y “Sobresaliente” (nota igual o superior a 7).
+
+# Declaracion de variables
+
+nota = 0
+
+# Ingreso de datos
+mientras (nota = 0)
+    mostrar ("Ingrese la nota del alumno:")
+    leer (nota)
+    si (nota <= 0 o nota > 10) entonces
+        mostrar ("Ingrese un numero entre 1 y 10")
+        nota = 0
+    fin si
+
+    # Control de flujo
+    si (nota <= 3.99) entonces
+        mostrar ("El alumno esta desaprobado”)
+    fin si
+    si no si (nota >= 4 o nota <= 6.99) entonces
+        mostrar ("El alumno esta aprobado”)
+    fin si
+    si no si (nota >= 7) entonces
+        mostrar ("El alumno es sobresaliente")
+    fin si
+fin mientras

@@ -1,0 +1,38 @@
+'''
+9. Ingresar dos valores, calcular su suma, su producto y la resta del 1ro menos el 2do. 
+'''
+
+# Fecha: 08/04/2019
+# Autor: Agustin Arce
+# Programa: Suma, producto y resta
+
+# inicializacion de variables
+
+numero1 = 0
+numero2 = 0
+suma = 0
+producto = 0
+resta = 0
+
+# Muestra del uso del programa
+
+mostrar ("Este programa muestra el resultade de la suma, el producto y a resta entre los dos numeros introducidos")
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (numero1)
+mostrar ("Ingrese segundo numero: ")
+leer (numero2)
+
+# Operaciones
+
+suma = numero1 + numero2
+producto = numero1 * numero2
+resta = numero1 - numero2
+
+# Muestra de resultados en pantalla
+
+mostrar("La suma de los dos valores es:", suma)
+mostrar("El producto entre los dos valores es:", producto)
+mostrar("La resta entre los dos valores es:", resta)

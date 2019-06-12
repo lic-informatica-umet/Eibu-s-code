@@ -1,0 +1,3 @@
+No es necesario declarar las variables SIEMPRE Y CUANDO tengan un valor asignado mas adelante al ejecutarse el codigo.
+
+Las variables puede ser convertidas a distintos tipos de datos 'on the fly'

@@ -1,0 +1,25 @@
+'''
+6. Codificar un programa para que a partir de un número entero se calcule su cociente. 
+'''
+# Fecha: 15/04/2019
+# Autor: Agustin Arce
+# Programa: Cociente
+
+# inicializacion de variables
+
+num1 = 0
+num2 = 0
+cociente = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+mostrar ("Ingrese segundo numero: ")
+
+# Operaciones
+
+cociente = num1 // num2
+
+# Mostrar el resultado
+
+mostrar ("El cociente de la division entre los dos numeros es:" + cociente)

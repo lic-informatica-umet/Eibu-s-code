@@ -1,0 +1,54 @@
+'''
+10. Ingresar tres valores correspondientes al día, mes y año de una fecha, indicar si es válida, considerar los años bisiestos. 
+'''
+
+# Fecha: 27/04/2019
+# Autor: Agustin Arce
+# Programa: Fecha valida
+
+año = 0
+mes = 0
+dia = 0
+año_es_bisiesto = 0
+
+mientras (año = 0)
+    mostrar ("Ingrese un año entre 1 y 3000: ")
+    leer (año)
+    si (año < 1) o (año > 3000) entonces
+        mostrar ("Ingrese un valor entre 1 y 3000.")
+        año = 0
+    si (año % 4 = 0) y (año % 100 <> 0) o (año % 400 = 0) entonces
+        año_es_bisiesto = 1
+
+    mientras (mes = 0) entonces
+        mostrar ("Ingrese un mes entre 1 y 12: ")
+        leer (mes)
+        si (mes < 1) o (mes > 12) entonces
+            mostrar ("Ingrese un valor entre 1 y 12.")
+            mes = 0
+    si (mes = 4) o (mes = 6) o (mes = 9) o (mes = 11) entonces
+        mostrar ("Ingrese un dia entre 1 y 30:")
+        leer (dia)
+        si (dia < 1) o (dia > 30) entonces
+            mostrar("Ingrese un valor entre 1 y 30.")
+            dia = 0
+    si (mes = 1) o (mes = 3) o (mes = 5) o (mes = 7) o (mes = 8) o (mes = 10) o (mes = 12) entonces
+        mostrar ("Ingrese un dia entre 1 y 31: ")
+        leer (dia)
+        si (dia < 1) o (dia < 31) entonces
+            mostrar ("Ingrese un valor entre 1 y 31.")
+            dia = 0    
+    si (mes == 2) y (año_es_bisiesto = 0) entonces
+        mientras (dia = 0)
+            mostrar ("Ingrese un dia entre 1 y 28: "))
+            si (dia < 1) o (dia > 28) entonces
+                mostrar ("Ingrese un valor entre 1 y 28.")
+                dia = 0
+    si (mes == 2) y (año_es_bisiesto = 1) entonces
+        mientras (dia = 0)
+            mostrar ("Ingrese un dia entre 1 y 29: "))
+            si (dia < 1) o (dia > 29) entonces
+                mostrar ("Ingrese un valor entre 1 y 2).")
+                dia = 0
+
+    mostrar ("La fecha:" + dia + "/" + mes + "/" + año + "es valida.")

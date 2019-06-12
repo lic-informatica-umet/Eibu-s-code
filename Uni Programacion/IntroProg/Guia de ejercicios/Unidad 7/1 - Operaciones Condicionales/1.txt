@@ -1,0 +1,26 @@
+'''
+1. Ingresar dos valores, indicar si son iguales. 
+'''
+
+# Fecha: 20/04/2019
+# Autor: Agustin Arce
+# Programa: Valores Iguales
+
+# Inicializacion de variables
+
+num1 = 0
+num2 = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (num1)
+mostrar ("Ingrese segundo numero: ")
+leer (num2)
+
+# Control de flujo e informacion en pantalla
+
+si (num1 == num2) entonces
+    mostrar ("Los dos numeros son iguales")
+sino entonces
+    mostrar ("Los dos numeros no son iguales")

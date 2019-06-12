@@ -1,0 +1,31 @@
+'''
+4. Ingresar dos valores y realizar la resta del mayor menos el menor A 
+'''
+
+# Fecha: 20/04/2019
+# Autor: Agustin Arce
+# Programa: Resta del menor al mayor
+
+# Inicializacion de variables
+
+num1 = 0
+num2 = 0
+resta = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (num1)
+mostrar ("Ingrese segundo numero: ")
+leer (num2)
+
+# Control de flujo
+
+si (num1 > num2) entonces
+    resta = num1 - num2
+    mostrar ("La resta del mayor con el menor es:" + resta)
+sino si (num1 < num2) entonces
+    resta = num2 - num1
+    mostrar ("La resta del mayor con el menor es:" + resta)
+sino entonces
+    mostrar ("Los numeros son iguales")

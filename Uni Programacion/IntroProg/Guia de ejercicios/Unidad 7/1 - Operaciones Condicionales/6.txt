@@ -1,0 +1,40 @@
+'''
+6. Ingresar tres valores, sumarlos, calcular el promedio e indicar cuál de estos valores es mayor al promedio.
+'''
+
+# Fecha: 20/04/2019
+# Autor: Agustin Arce
+# Programa: Promedios
+
+# Inicializacion de variables
+
+nota1 = 0
+nota2 = 0
+nota3 = 0
+promedio = 0
+maxnota = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese la primer nota: ")
+leer (nota1)
+mostrar ("Ingrese la segunda nota: ")
+leer (nota2)
+mostrar ("Ingrese la tercer nota: ")
+leer (nota3)
+
+# Operacion de promedio
+
+promedio = (nota1 + nota2 + nota3) / 3
+
+si (nota1 > nota2 y nota3) entonces
+    maxnota = nota1
+si (nota2 > nota1 y nota3) entonces
+    maxnota = nota2
+si (nota3 > nota1 y nota2) entonces
+    maxnota = nota3
+
+# Muestra de informacion
+
+mostrar ("La nota maxima es:" + maxnota)
+mostrar ("El promedio de las notas es:" + promedio)

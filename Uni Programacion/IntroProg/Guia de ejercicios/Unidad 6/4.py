@@ -1,0 +1,32 @@
+'''
+4. Codificar un programa para que a partir del monto facturado calcule el monto de ingresos brutos (3% del monto facturado). 
+Muestre ambos valores por pantalla. 
+'''
+
+# Fecha: 15/04/2019
+# Autor: Agustin Arce
+# Programa: Ingresos Brutos
+
+# inicializacion de variables
+
+montoFacturado = 0
+montoIngBrutos = 0
+valorIngBrutos = 0
+
+# Declaracion de constantes
+
+INGBRUTOS = 0.03
+
+# Ingreso de datos
+
+montoFacturado = float(input("Ingrese monto facturado en pesos: $"))
+
+# Operaciones
+
+valorIngBrutos = montoFacturado * INGBRUTOS
+montoIngBrutos = montoFacturado - valorIngBrutos
+
+# Mostrar el resultado
+
+print("Los ingresos son de: $", montoIngBrutos)
+print("El impuesto a los ingresos brutos es de: $", valorIngBrutos)

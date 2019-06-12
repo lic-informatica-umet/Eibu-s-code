@@ -1,0 +1,28 @@
+'''
+5. Codificar un programa para que a partir de un número entero se calcule su resto.  
+'''
+
+# Fecha: 15/04/2019
+# Autor: Agustin Arce
+# Programa: Resto
+
+# inicializacion de variables
+
+num1 = 0
+num2 = 0
+resto = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer numero: ")
+leer (num1)
+mostrar ("Ingrese segundo numero: ")
+leer (num2)
+
+# Operaciones
+
+resto = num1 % num2
+
+# Mostrar el resultado
+
+mostrar ("El resto de la division entre los dos numeros es:" + resto)

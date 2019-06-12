@@ -1,0 +1,35 @@
+'''
+5. Ingresar los tres lados de un triángulo e indicar que tipo de triángulo es. 
+'''
+
+# Fecha: 20/04/2019
+# Autor: Agustin Arce
+# Programa: Tipos de triangulos
+
+# Inicializacion de variables
+
+lado1 = 0
+lado2 = 0
+lado3 = 0
+
+# Ingreso de datos
+
+mostrar ("Ingrese primer lado: ")
+leer (lado1)
+mostrar ("Ingrese segundo lado: ")
+leer (lado2)
+mostrar ("Ingrese tercer lado: ")
+leer (lado3)
+
+# Control de Flujo
+
+si (lado1 == lado2) entonces
+    mostrar ("Es un triangulo isoceles.")
+sino si (lado2 == lado3) entonces
+    mostrar ("Es un triangulo isoceles.")
+sino si lado1 == lado3) entonces
+    mostrar ("Es un triangulo isoceles.")
+sino si (lado1 == lado2 == lado3) entonces
+    mostrar ("Es un triangulo equilatero.")
+sino entonces
+    mostrar ("Es un triangulo escaleno.")
